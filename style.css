@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(120deg, #f3d46e, #f48262);
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+header {
+  font-size: 3rem;
+  color: white;
+}
+
+header,
+form {
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 2 rem;
+  font-family: "Poppins", sans-serif;
+  border: none;
+}
+
+form button {
+  color: #f48262;
+  background-color: white;
+}
+
+input:focus {
+  outline: none;
+}
