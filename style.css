@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: linear-gradient(120deg, #f3d46e, #f48262);
+  background-image: linear-gradient(120deg, #44268a, #b25bd8);
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
 }
@@ -13,11 +13,12 @@ body {
 header {
   font-size: 3rem;
   color: white;
+  text-align: center;
 }
 
 header,
 form {
-  min-height: 20vh;
+  min-height: 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,4 +39,15 @@ form button {
 
 input:focus {
   outline: none;
+}
+
+.comic-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  height: 500px;
+  margin: 15px;
 }

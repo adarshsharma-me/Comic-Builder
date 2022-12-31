@@ -13,27 +13,26 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
-    <title>To-Do List</title>
+    <title>Comic Book Generator</title>
 </head>
 
 <body>
 
     <header>
-        Adarsh's To Do List
+        Build your own comic right now ;)
     </header>
 
     <form>
-        <input type="text" class="todo-input">
-        <button type="submit">
-            <i class="fas fa-plus-square"></i>
+        <input type="text" class="idea-input" id="comic-idea">
+        <button type="button" id="searchButton" onclick="search()">
+            <i class="fa-solid fa-arrow-right"></i>
         </button>
     </form>
 
-    <div class="todo-container">
-        <ul class="todo-list"></ul>
+    <div class="comic-images" id="comic-gallery">
     </div>
 
-    <script src="./app.js"></script>
+    <script type="module" src="./index.js"></script>
 </body>
 
 </html>
