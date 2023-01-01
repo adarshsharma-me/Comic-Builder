@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(120deg, #44268a, #b25bd8);
+  font-family: Poppins, sans-serif;
+}
+
+header {
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+}
+
+header, form {
+  min-height: 10vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+form input, form button {
+  font-size: 2 rem;
+  border: none;
+  padding: .5rem;
+  font-family: Poppins, sans-serif;
+}
+
+form button {
+  color: #f48262;
+  background-color: #fff;
+}
+
+input:focus {
+  outline: none;
+}
+
+.comic-images {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+
+img {
+  height: 500px;
+  margin: 15px;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
