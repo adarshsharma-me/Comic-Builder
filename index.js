@@ -2,7 +2,7 @@ import { Configuration, OpenAIApi } from "openai";
 let prompt = "";
 let dataResponse = "";
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: "*****",
 });
 
 document.querySelector("#searchButton").addEventListener("click", () => {
